@@ -1,0 +1,31 @@
+# build output
+bin
+tmp
+*.exe
+*.exe~
+*.test
+*.out
+
+# local database
+*.sqlite
+*.sqlite3
+*.db
+
+# dotenv environment variable files
+.env
+.env.*
+
+# secrets
+secrets
+*.pem
+*.key
+
+# logs
+logs
+*.log
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
